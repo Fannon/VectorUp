@@ -1,0 +1,372 @@
+/*
+** TYPOGRAPHY
+*/
+h1, h2, h3, h4, h5 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+h2, h3, h4, h5 {
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+h2 {
+    font-size: 160%;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCC;
+}
+h3 {
+    font-size: 140%;
+    margin-top: 0.3em;
+}
+h4 {
+    font-size: 120%;
+    margin-top: 0.2em;
+}
+#firstHeading {
+    font-size: 2em;
+    border: none;
+}
+
+a,
+a:visited {
+    color: #0075C4 !important;
+}
+a.new,
+a.new:visited {
+    color: #C20D0D !important;
+}
+#toc,
+.toc {
+    padding: 7px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    float: right;
+}
+pre {
+    font-size: 0.85em;
+}
+hr {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #CCC;
+}
+
+
+/*
+** MEDIAWIKI STYLE
+*/
+.naming-box, .description-box {
+    padding: 4px 8px;
+    margin: 8px 0;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+.naming-box {
+    border: 1px solid #6BBD12;
+    background: #D3E5C7;
+}
+
+.description-box {
+    border: 1px solid #7EB4EA;
+    background: #D8E8F7;
+}
+
+.mw-code, #catlinks {
+    padding: 7px 10px;
+    border: 1px solid #CCC;
+    margin: 7px 0;
+    border-radius: 3px;
+}
+.mw-editsection {
+    display: none;
+    font-size: 9px;
+}
+.mw-specialpages-table {
+    margin-top: 0;
+}
+
+div#footer {
+    padding: 0.5em;
+}
+#footer-info-lastmod {
+    float: left;
+}
+#footer-info-viewcount {
+    float: right;
+}
+#footer-places, #footer-icons {
+    display: none;
+}
+
+/** Buttons Style **/
+input[type=button], input[type=submit] {
+    border-radius: 3px;
+    border: none;
+    background: #128FBD;
+    color: #FFF;
+    padding: 6px 8px;
+    cursor: pointer;
+    user-select: none;
+}
+input[type=button]:hover, input[type=submit]:hover {
+    opacity: 0.85;
+}
+input[type=submit] {
+    background: #6BBD12;
+}
+input#wpDiff {
+    background: #128FBD;
+}
+
+
+/** SMW STYLE **/
+.smw-highlighter {
+    margin: 0 4px;
+}
+
+/** Semantic Forms Style **/
+table.formtable {
+    width: 100%;
+    border: 1px dotted #CCC;
+    padding: 8px;
+    margin-top: 12px;
+    background: none;
+    border-color: #CCC;
+}
+
+.multipleTemplateInstance table.formtable {
+    border: none;
+    padding: 0;
+}
+
+.formdata td,
+.formdata th {
+    padding: 2px 8px !important;
+    border-color: #CCC !important;
+}
+
+.formbuttons {
+    margin-top: 8px;
+}
+
+.formtable .createboxInput,
+.formtable .mandatoryField,
+.formtable textarea {
+    min-width: 204px;
+    width: 404px;
+    max-width: 100%;
+}
+
+#sfForm .mandatoryField {
+    border-color: #E16761  !important;
+}
+.formtable .select2-container {
+    width: auto;
+}
+
+.formtable .recommendedField,
+.formtable .recommendedField .select2-choice {
+    border-color: #FFB93D !important;
+}
+
+#sfForm td {
+    margin: 0;
+    padding: 2px 4px
+}
+#sfForm .createboxInput,
+#sfForm .mandatoryField,
+#sfForm textarea,
+select.cfl {
+    margin-left: 0;
+    border-radius: 3px;
+    border: 1px solid #BBB;
+    padding: 4px 8px;
+    display: inline-block;
+}
+#sfForm fieldset {
+    border: 1px dotted #BBB;
+}
+
+#sfForm .ui-widget {
+    display: inline-block;
+}
+#sfForm input[readonly] {
+    background: #EEE;
+}
+
+#sfForm .select2-container {
+    border: none;
+    padding: 0;
+}
+#sfForm textarea,
+form input.formInput {
+    border-radius: 3px;
+    border: 1px solid #BBB;
+    padding: 4px 8px;
+}
+#sfForm input#wpSummary,
+#sfForminput#wpSummary:hover {
+    border-radius: 3px;
+    border: 1px solid #BBB;
+    padding: 4px 8px;
+}
+
+
+.multipleTemplateInstance {
+    background-color: #F2F2F2;
+    border: 1px solid #BBBBBB;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    border-radius: 3px;
+}
+
+#sfForm td.instanceAddAbove,
+#sfForm td.instanceRemove {
+    padding: 0;
+    width: 34px;
+    overflow: visible;
+}
+
+.multipleTemplateInstance table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    background-color: inherit;
+}
+
+.select2-choices,
+.select2-choice {
+    min-width: 220px;
+    width: 420px;
+    max-width: 100%;
+}
+
+.select2-choice {
+    width: 412px !important;
+}
+
+.formtable textarea {
+    width: 422px !important;
+}
+
+.formtable select, .formtable input[type="checkbox"] {
+    min-width: 0;
+    max-width: 100%;
+    width: auto !important;
+}
+#sfForm input#wpSummary,
+#sfForm input#wpSummary:hover {
+    width: 420px;
+    max-width: 100%;
+}
+
+
+
+/** HEADER TABS STYLE **/
+.ui-tabs .ui-tabs-panel {
+    padding: 4px 10px;
+}
+.ui-widget-header {
+    background: none;
+}
+.ui-widget-content {
+    background: #FAFAFA;
+}
+.ui-tabs-nav a, .ui-tabs-nav a:visited {
+    color: #555 !important;
+    background: #FAFAFA
+;    border-color: #CCC;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 1px solid #FAFAFA;
+}
+.ui-tabs-nav a {
+    background: #FFF;
+}
+.ui-tabs-nav .ui-state-active a {
+    background: #FAFAFA;
+    border-bottom: 1px solid #FAFAFA;
+}
+.ui-widget-header {
+    border-bottom: 1px solid #CCC;
+}
+.ui-tabs-nav li {
+    border-color: #CCC !important;
+    border-radius: 3px 3px 0 0;
+}
+
+
+/* Override some jQuery UI settings */
+.ui-button {
+    margin-left: -1px;
+}
+.ui-button-icon-only .ui-button-text {
+    padding: 0.35em;
+}
+button.ui-button-icon-only {
+    width: 1.7em;
+    height: 1.5em;
+    vertical-align: bottom;
+    margin-top: 0.2em;
+} /* button elements seem to need a little more width */
+input.hasDatepicker,
+input.hasDatepicker:hover {
+    border-radius: 3px;
+    border: 1px solid #BBB;
+    padding: 4px 8px;
+}
+
+button.ui-datepicker-trigger {
+    border-radius: 3px;
+    border: 1px solid #BBB;
+    padding: 4px 8px;
+    margin-left: 4px;
+}
+
+
+/* Override CSS from Header Tabs extension, if tabs are used in the form */
+input.sfComboBoxActual {
+    border: 1px solid #a6a6a6;
+}
+
+
+/* Override Select2 Style */
+.select2-drop-active {
+    border: 1px solid #999;
+}
+.select2-container-active .select2-choices,
+.select2-container-active .select2-choice {
+    border: 1px solid #999 !important;
+    box-shadow: none !important;
+}
+.select2-container-multi .select2-choices {
+    padding: 2px 0;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    padding: 4px 5px 4px 18px;
+    background: #EEE;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    border-radius: 0;
+}
+
+.select2-container .select2-choice > .select2-chosen {
+    color: #000;
+}
+
+.sf-select2-dropdown .select2-results .select2-highlighted {
+    background-color: #555;
+}
+.select2-choices,
+.select2-choice {
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #BBB;
+}
+
