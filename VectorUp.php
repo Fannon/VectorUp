@@ -51,6 +51,7 @@ $wgResourceModules['ext.VectorUp'] = array(
    ),
    'styles' => array(
       'lib/MediaWiki-SMW.css',
+      'lib/SemanticForms.css',
    ),
    'dependencies' => array(
    ),
