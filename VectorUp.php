@@ -1,6 +1,6 @@
 <?php
 /**
- * VectorUp adds CSS and JavaScript to style MediaWiki and further extensions more modern and consistently
+ * VectorUp is a Vector skin that adds CSS and JavaScript to style MediaWiki and further extensions more modern and consistently
  *
  * Currently "upgraded":
  * * MediaWiki (Buttons, Typography)
@@ -13,8 +13,15 @@
  *
  * @file
  * @ingroup Extensions
- * @author Simon Heimler, 2014
- * @license GNU General Public Licence 2.0 or later
+ * @package MediaWiki
+ *
+ * @links https://github.com/Fannon/VectorUp/blob/master/README.md Documentation
+ * @links https://www.mediawiki.org/wiki/Extension_talk:VectorUp Support
+ * @links https://github.com/Fannon/VectorUp/issues Bug tracker
+ * @links https://github.com/Fannon/VectorUp Source code
+ *
+ * @author Simon Heimler (Fannon), 2015
+ * @license http://opensource.org/licenses/mit-license.php The MIT License (MIT)
  */
 
 //////////////////////////////////////////
@@ -37,7 +44,8 @@ $wgExtensionCredits['other'][] = array(
    'author'         => array('Simon Heimler'),
    'version'        => '0.0.1',
    'url'            => 'https://www.mediawiki.org/wiki/Extension:VectorUp',
-   'descriptionmsg' => 'VectorUp-desc',
+   'descriptionmsg' => 'vectorup-desc',
+   'license-name'   => 'MIT'
 );
 
 
@@ -51,7 +59,7 @@ $wgResourceModules['ext.VectorUp'] = array(
    ),
    'styles' => array(
       'lib/MediaWiki-SMW.css',
-      'lib/SemanticForms.css',
+      'lib/SF.css',
    ),
    'dependencies' => array(
    ),

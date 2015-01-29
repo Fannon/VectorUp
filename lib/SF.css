@@ -1,0 +1,74 @@
+/**
+ * Sets fixed width for SemanticForm input fields
+ */
+
+/** Mobo related styles */
+#sfForm .recommendedField,
+#sfForm .recommendedField .select2-choice {
+    border-color: #FFB93D !important;
+}
+
+/** INPUT FIELD STYLE */
+#sfForm .createboxInput,
+#sfForm .mandatoryField,
+#sfForm textarea {
+    width: 372px;
+    max-width: 390px;
+}
+#sfForm .select2-container {
+    width: 370px;
+}
+.select2-choices,
+.select2-choice {
+    width: 380px;
+}
+.select2-choice {
+    width: 372px !important;
+}
+.autoGrow {
+  width: 276px;
+}
+.multipleTemplateInstance {
+    max-width: 740px;
+}
+
+/** Responsive Forms */
+
+.sfFieldRow {
+    margin: 8px 0;
+    max-width: 640px;
+}
+
+.sfFieldLabel {
+    display: inline-block;
+    margin-right: 8px;
+    width: 25%;
+    min-width: 80px;
+    max-width: 160px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+}
+
+.sfFieldContent {
+    display: inline-block;
+    width: 70%;
+    max-width: 460px;
+}
+
+@media (max-width: 780px) {
+    .sfFieldLabel {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        border-bottom: none;
+        text-align: left;
+    }
+    .sfFieldContent {
+        display: inline-block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
