@@ -7,13 +7,28 @@
 #sfForm .recommendedField .select2-choice {
     border-color: #FFB93D !important;
 }
+#sfForm .mandatoryField {
+    border-color: #E16761 !important;
+}
 
 /** INPUT FIELD STYLE */
+
+#sfForm .sfFormContainer {
+    border: 1px solid #DDD;
+    padding: 4px 10px;
+}
+#sfForm .multipleTemplateInstance .sfFormContainer {
+    border: none;
+    padding: 0;
+}
+#sfForm fieldset {
+  border: 1px solid #DDD;
+}
 #sfForm .createboxInput,
 #sfForm .mandatoryField,
 #sfForm textarea {
-    width: 372px;
-    max-width: 390px;
+    width: 364px;
+    max-width: 382px !important;
 }
 #sfForm .select2-container {
     width: 370px;
@@ -23,13 +38,17 @@
     width: 380px;
 }
 .select2-choice {
-    width: 372px !important;
+    width: 372px;
 }
 .autoGrow {
   width: 276px;
 }
 .multipleTemplateInstance {
     max-width: 740px;
+}
+#sf_free_text {
+    width: 100% !important;
+    max-width: 800px !important;
 }
 
 /** Responsive Forms */
