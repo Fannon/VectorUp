@@ -15,6 +15,7 @@
 
 #sfForm .sfFormContainer {
     border: 1px solid #DDD;
+    border-radius: 3px;
     padding: 4px 10px;
 }
 #sfForm .multipleTemplateInstance .sfFormContainer {
@@ -23,6 +24,7 @@
 }
 #sfForm fieldset {
   border: 1px solid #DDD;
+  border-radius: 3px;
 }
 #sfForm .createboxInput,
 #sfForm .mandatoryField,
@@ -92,6 +94,37 @@
     }
 }
 
+/** Special Case: Checlists */
+.checklistForm .sfFormContainer {
+    background: #FBFFF6 !important;
+    border: 1px solid #70C00C !important;
+}
+.checklistForm .sfFieldLabel {
+    min-width: 320px;
+}
+.checklistForm .sfFieldContent {
+    width: auto;
+}
+
+.checklistForm .sfFieldRow {
+    max-width: none;
+    border-bottom: 1px solid #DDD;
+    margin: 4px 0;
+    padding-bottom: 4px;
+}
+
+
+
+
+
+table.formdata {
+    min-width: 400px;
+}
+table.formdata td,
+table.formdata th {
+    padding: 2px 4px;
+}
+
 /* HeaderTabs Adjustments */
 .ui-state-active,
 .ui-widget-content {
@@ -112,12 +145,11 @@
 
 
 /* HeaderTabs in sfForm Edit mode */
-
 #sfForm #headertabs {
     border: 1px solid #BD3212;
     padding: 4px 1px 1px 1px;
     border-radius: 3px;
-    background: #FFFCF9 !important;
+    background: #FFF2F1 !important;
 }
 
 #sfForm #headertabs .ui-tabs-nav a,
@@ -125,12 +157,6 @@
     color: #BD3212 !important;
 }
 
-#sfForm h2,
-#sfForm h3,
-#sfForm h4
- {
-    color: #A01E00;
-}
 #ca-form_edit a,
 #ca-form_edit a:visited  {
     color: #BD3212 !important;
