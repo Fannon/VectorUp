@@ -128,3 +128,14 @@ input#wpDiff {
 .smw-highlighter {
     margin: 0 4px;
 }
+
+/** mobo Styles */
+
+.mobo-generated {
+    display: block;
+    border: 1px solid #E8B028;
+    background: #F5ECD7;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin: 8px 0;
+}

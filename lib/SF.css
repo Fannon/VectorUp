@@ -2,14 +2,8 @@
  * Sets fixed width for SemanticForm input fields
  */
 
-/** Mobo related styles */
-#sfForm .recommendedField,
-#sfForm .recommendedField .select2-choice {
-    border-color: #FFB93D !important;
-}
-#sfForm .mandatoryField {
-    border-color: #E16761 !important;
-}
+
+
 
 /** INPUT FIELD STYLE */
 
@@ -33,15 +27,22 @@
     max-width: 382px !important;
 }
 #sfForm .select2-container {
-    width: 370px;
+    width: 372px !important;
+}
+#sfForm .select2-container-multi {
+    width: 382px !important;
 }
 .select2-choices,
-.select2-choice {
+.select2-choice, {
     width: 380px;
 }
 .select2-choice {
     width: 372px;
 }
+.select2-container-multi .select2-choices {
+  border-bottom: 3px double #BBB !important;
+}
+
 .autoGrow {
   width: 276px;
 }
@@ -62,7 +63,7 @@
 
 .sfFieldLabel {
     display: inline-block;
-    margin-right: 8px;
+    padding-right: 2px;
     width: 25%;
     min-width: 80px;
     max-width: 160px;
@@ -70,6 +71,25 @@
     text-align: right;
     vertical-align: top;
 }
+.sfFieldLabel::after {
+    content: "*";
+    margin-left: 2px;
+    font-size: 1.6em;
+    line-height: 1em;
+    font-weight: bold;
+    opacity: 0;
+}
+
+/** Mobo related styles */
+.mandatoryInput .sfFieldLabel::after {
+    color: #E16761;
+    opacity: 1;
+}
+.recommendedInput .sfFieldLabel::after {
+    color: #FFB93D;
+    opacity: 1;
+}
+
 
 .sfFieldContent {
     display: inline-block;
@@ -105,15 +125,24 @@
 .checklistForm .sfFieldContent {
     width: auto;
 }
-
 .checklistForm .sfFieldRow {
     max-width: none;
     border-bottom: 1px solid #DDD;
     margin: 4px 0;
     padding-bottom: 4px;
 }
-
-
+.formdata td.Ja {
+    background-color: #5CA500;
+    color: #FFF;
+}
+.formdata td.Nein {
+    background-color: #9D2114;
+    color: #FFF;
+}
+.formdata td.Unbekannt {
+    background-color: #D19800;
+    color: #FFF;
+}
 
 
 
