@@ -60,7 +60,11 @@ hr {
 /*
 ** MEDIAWIKI STYLE
 */
-.naming-box, .description-box {
+
+.naming-box,
+.description-box,
+.infoMessage,
+#catlinks {
     padding: 4px 8px;
     margin: 8px 0;
     border: 1px solid #CCC;
@@ -75,19 +79,22 @@ hr {
     border: 1px solid #7EB4EA;
     background: #D8E8F7;
 }
-
-.mw-code, #catlinks {
-    padding: 7px 10px;
-    border: 1px solid #CCC;
-    margin: 7px 0;
-    border-radius: 3px;
+.infoMessage,
+#catlinks {
+    border: 1px solid #AAA;
+    background: #F7F7F7;
 }
+
 .mw-editsection {
     display: none;
     font-size: 9px;
 }
 .mw-specialpages-table {
     margin-top: 0;
+}
+
+table.wikitable > * > tr > td {
+  padding: 0.2em 0.4em;
 }
 
 div#footer {
