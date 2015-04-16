@@ -215,16 +215,31 @@ table.formdata th {
     background-image: none;
 }
 
-.mobo-tag {
+a.mobo-tag {
     font-size: 11px;
-    background: #980D0D;
+    background: #777;
     color: #FFF;
     padding: 2px 8px;
     margin-left: 8px;
     border-radius: 3px;
     display: inline-block;
+    text-decoration: none;
 }
 
-.mobo-tag-ungenuegend {
-    background: #690D98;
+a.mobo-tag:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a.mobo-tag-inBearbeitung {
+    background: #D59F0F;
+}
+a.mobo-tag-falsch {
+    background: #B63D13;
+}
+a.mobo-tag-ungenuegend {
+    background: #841DB8;
+}
+a.mobo-tag-veraltet {
+    background: #B97A57;
 }

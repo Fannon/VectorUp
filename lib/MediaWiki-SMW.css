@@ -31,12 +31,16 @@ h4 {
 }
 
 a,
-a:visited {
-    color: #0075C4 !important;
+a:visited,
+div.vectorTabs li a,
+div.vectorTabs li a:visited,
+div#mw-panel div.portal div.body ul li a,
+div#mw-panel div.portal div.body ul li a:visited {
+    color: #0075C4;
 }
 a.new,
 a.new:visited {
-    color: #C20D0D !important;
+    color: #C20D0D;
 }
 #toc,
 .toc {
@@ -145,4 +149,16 @@ input#wpDiff {
     padding: 2px 8px;
     border-radius: 3px;
     margin: 8px 0;
+}
+
+
+.td-true {
+    background: #6CAF1D;
+    color: #FFF;
+}
+
+
+.td-false {
+    background: #C53330;
+    color: #FFF;
 }
