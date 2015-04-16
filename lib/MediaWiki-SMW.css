@@ -51,6 +51,7 @@ a.new:visited {
     border-radius: 3px;
     float: right;
 }
+}
 pre {
     font-size: 0.85em;
 }
@@ -97,6 +98,10 @@ hr {
     margin-top: 0;
 }
 
+.wikitable {
+    min-width: 380px;
+}
+
 table.wikitable > * > tr > td {
   padding: 0.2em 0.4em;
 }
@@ -141,6 +146,35 @@ input#wpDiff {
 }
 
 /** mobo Styles */
+a.mobo-tag {
+    font-size: 11px;
+    background: #555;
+    color: #FFF;
+    padding: 3px 8px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.mobo-tag:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a.mobo-tag-inBearbeitung {
+    background: #D59F0F;
+}
+a.mobo-tag-falsch {
+    background: #B63D13;
+}
+a.mobo-tag-ungenuegend {
+    background: #841DB8;
+}
+a.mobo-tag-veraltet {
+    background: #B97A57;
+}
 
 .mobo-generated {
     display: block;
