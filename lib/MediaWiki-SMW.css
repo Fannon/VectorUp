@@ -196,3 +196,18 @@ a.mobo-tag-veraltet {
     background: #C53330;
     color: #FFF;
 }
+
+
+/** Chameleon Skin Adjustments */
+
+.mw-body {
+   padding: 0;
+}
+
+#firstHeading {
+    /*margin: 0;*/
+}
+
+.navbar-static-top {
+    margin-bottom: 0;
+}

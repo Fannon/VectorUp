@@ -58,8 +58,8 @@ $wgResourceModules['ext.VectorUp'] = array(
       'lib/VectorUp.js',
    ),
    'styles' => array(
-      'lib/MediaWiki-SMW.css',
-      'lib/SF.css',
+      // 'lib/MediaWiki-SMW.css',
+      // 'lib/SF.css',
    ),
    'dependencies' => array(
    ),
